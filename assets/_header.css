@@ -2,22 +2,28 @@ label,
 #toggle {
   display: none;
 }
-  nav {
+  nav .main_pages{
     
     background: var(--black);
-    height: 100px;
+    height: 150px;
     width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--black);
+    
   
   }
 
   a {
     text-decoration: none;
     color: var(--red);
-    display: inline-block;
-    align-content: space-around;
-    align-items: center;
-    
   }
+
+ 
+
 
 
 @media only screen and (max-width: 680px) {
@@ -53,9 +59,6 @@ label,
   }
 
   #toggle:checked + .main_pages {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-
+    display: inline-block;
   }
 }
