@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./assets/style.css">
 
-<div class="skillsection">
+<section id="skills">
 
  <h2>Skills</h2>
  <p>TIE Pilot</p>
@@ -33,7 +33,7 @@
      <div class="skill c6">100%</div>
  </div>
 
-</div>
+</section>
 
 
 
