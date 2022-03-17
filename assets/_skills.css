@@ -1,7 +1,7 @@
 
 
 
-.skillsection {
+#skills {
     background-color: white;
     padding-bottom: 20px;
 
@@ -16,7 +16,7 @@ h2 {
 p {
     text-align: left;
     padding-top: 18px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     margin-left: 5%;
     font-size: 1rem;
 }
@@ -29,41 +29,47 @@ p {
     margin-left: 5%;
     box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.75);
     border: 8px solid #000000 ;
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 20px 20px 20px 20px;
 
 }
 
 .skill {
     text-align: right;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 2px;
+    padding-right: 6px;
+    padding-bottom: 2px;
     color: black;
-    
 }
 
 .c1 {
+    border-radius: 15px;
     width: 90%;
     background-color: var(--red);
 }
 
 .c2 {
+    border-radius: 15px;
     width: 70%;
     background-color: var(--red);
 }
 
 .c3 {
+    border-radius: 15px;
     width: 100%;
     background-color: var(--red);
 }
 .c4 {
+    border-radius: 15px;
     width: 100%;
     background-color: var(--red);
 }
 .c5 {
+    border-radius: 15px;
     width: 80%;
     background-color: var(--red);
 }
 .c6 {
+    border-radius: 15px;
     width: 100%;
     background-color: var(--red);
 }
