@@ -7,6 +7,7 @@ label,
     background: var(--black);
     height: 100px;
     width: 100%;
+  
   }
 
   a {
@@ -23,7 +24,8 @@ label,
   nav {
     height: 50px;
     background: var(--black);
-    position:fixed;
+    
+    
   }
 
   nav .main_pages {
@@ -32,7 +34,7 @@ label,
     align-items: center;
     align-content: center;
     background:var(--black);
-    height: 220px;
+    /* height: 220px; */
   }
 
   nav .main_pages a {
@@ -52,5 +54,8 @@ label,
 
   #toggle:checked + .main_pages {
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
   }
 }

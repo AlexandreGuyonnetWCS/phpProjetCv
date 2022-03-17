@@ -1,0 +1,27 @@
+
+#homepage {
+
+    display:grid;
+    grid-template-columns:(3,auto);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+    
+    
+
+}
+#homepage h1 {
+
+    
+    border:2px green solid;
+
+
+}
+
+#homepage img {
+
+    border: 2px salmon solid;
+}
+
+#homepage p{
+    border: 2px yellow solid;
+}
