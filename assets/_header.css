@@ -2,36 +2,27 @@ label,
 #toggle {
   display: none;
 }
-  nav .main_pages{
-    
-    background: var(--black);
-    height: 150px;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    background-color: var(--black);
-    
-  
-  }
+nav .main_pages {
+  background: var(--black);
+  height: 150px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--black);
+}
 
-  a {
-    text-decoration: none;
-    color: var(--red);
-  }
-
- 
-
-
+a {
+  text-decoration: none;
+  color: var(--red);
+}
 
 @media only screen and (max-width: 680px) {
   nav {
     height: 50px;
     background: var(--black);
-    
-    
   }
 
   nav .main_pages {
@@ -39,7 +30,7 @@ label,
     flex-direction: row;
     align-items: center;
     align-content: center;
-    background:var(--black);
+    background: var(--black);
     /* height: 220px; */
   }
 
