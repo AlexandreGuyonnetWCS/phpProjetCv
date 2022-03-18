@@ -27,7 +27,6 @@
         padding-left: 1rem;
         padding-right: 1rem;
         gap: 0.8rem;
-        border-bottom: 0.2rem var(--black) solid;
         justify-content: center;
     }
 
@@ -68,3 +67,4 @@
         border-radius: 10px;
     }
 }
+

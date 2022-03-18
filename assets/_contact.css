@@ -1,0 +1,97 @@
+#contact {
+    background-color: var(--white);
+}
+
+form {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    min-height: 150px;
+}
+
+#contact h2 {
+    color: var(--black);
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.contact img {
+    width: 40px;
+    height: 40px;
+}
+
+.callme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.contactme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.findme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.image {
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+}
+
+.text {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px rgb(207, 207, 207) solid;
+    padding-left: 2rem;
+    color: var(--black);
+
+}
+
+#getintouch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto; 
+    position: relative;
+}
+
+
+
+
+
