@@ -5,9 +5,9 @@
         <div>© dePhants Team </div>
         <div>Mentions Legales</div>
         <div class:"rezo">
-            <img src="https://fakeimg.pl/20x20/?text=F">
-            <img src="https://fakeimg.pl/20x20/?text=T">
-            <img src="https://fakeimg.pl/20x20/?text=M">
+            <img src="./assets/images/twitter.png">
+            <img src="./assets/images/facebook.png">
+            <img src="./assets/images/linkedin.png">
         </div>
         
     </footer>
