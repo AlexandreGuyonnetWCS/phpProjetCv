@@ -1,3 +1,4 @@
+
 #homepage {
   display: grid;
   grid-template-columns: auto;
@@ -5,6 +6,7 @@
   grid-gap: 20px;
   justify-content: center;
   justify-items: center;
+  
 }
 #homepage h1 {
   border: 2px var(--black) solid;

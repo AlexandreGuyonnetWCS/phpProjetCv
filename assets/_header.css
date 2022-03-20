@@ -1,6 +1,7 @@
 label,
 #toggle {
   display: none;
+  
 }
 nav .main_pages {
   background: var(--black);
@@ -21,23 +22,25 @@ a {
 
 @media only screen and (max-width: 680px) {
   nav {
-    height: 50px;
+    height: auto;
     background: var(--black);
+ 
   }
 
   nav .main_pages {
     display: none;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-start;
     align-content: center;
     background: var(--black);
-    /* height: 220px; */
+    height: 60px;
+   
   }
 
   nav .main_pages a {
-    /* width: 50%; */
     color: var(--red);
     text-decoration: none;
+ 
   }
 
   label {
@@ -49,7 +52,18 @@ a {
     cursor: pointer;
   }
 
+  nav img {
+
+    display: none;
+  }
+
   #toggle:checked + .main_pages {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
   }
 }
