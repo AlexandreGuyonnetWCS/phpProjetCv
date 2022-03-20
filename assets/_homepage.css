@@ -1,3 +1,7 @@
+@font-face {
+  font-family:stjedise;
+  src: url(./fonts/STJEDISE.TTF);
+}
 
 #homepage {
   display: grid;
@@ -6,13 +10,13 @@
   grid-gap: 20px;
   justify-content: center;
   justify-items: center;
-  
 }
 #homepage h1 {
-  border: 2px var(--black) solid;
-  border-radius: 10px;
+  font-family: stjedise;
+  font-size: 3rem;
+  /* border-radius: 10px;
   background-color: var(--grey);
-  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.75); */
   width: 200px;
   height: 100px;
   padding: 15px;
@@ -28,12 +32,10 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 2;
-  border: 2px var(--black) solid;
   border-radius: 10px;
   background-color: var(--grey);
   box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.75);
-  width: 80%;
-  
+  /* width: 80%; */
   padding: 15px;
   text-align: center;
   margin: 20px;
