@@ -34,6 +34,18 @@ textarea {
     border-radius: 10px;
 }
 
+.submit {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
 #contact h2 {
     color: var(--black);
     text-align: center;
@@ -74,19 +86,51 @@ textarea {
     padding-bottom: 1rem;
 }
 
+.form {
+    margin-left: 2rem;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
-    border-left: 1px rgb(207, 207, 207) solid;
-    padding-left: 2rem;
+    padding-left: 1rem;
     color: var(--black);
+    margin-left: 0rem;
+}
 
+.death_star img {
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
 }
 
 #getintouch {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    padding-left: 4rem; 
+    grid-template-columns: 3fr 1.3fr 1fr; 
+}
+
+@media screen and (max-width: 700px) {
+    #getintouch {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0%; 
+    }
+    .contact {
+        border-left: none;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        margin-bottom: -5rem;
+    }
+
+    .death_star img {
+        width: 0;
+        height: 0;
+    }
+
+    .submit {
+        margin-left: 35%;
+    }
 }
 
 

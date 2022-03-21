@@ -9,6 +9,7 @@
                     <input type="text" placeholder="Surname">   
                     <input type="email" placeholder="@">
                     <textarea placeholder="Your message"></textarea>
+                    <button class="submit" type="submit">Submit</button>
                 </div>
                 <div class="contact">
                     <div class="callme">
@@ -38,6 +39,9 @@
                             <div><p>Death star - Level1</p></div>
                         </div>
                     </div>
+                </div>
+                <div class="death_star">
+                    <div><img src = "assets/images/death_star.png" alt="Death star"></div>
                 </div>
             </div>
         </form>
