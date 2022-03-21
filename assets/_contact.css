@@ -13,25 +13,25 @@ form {
 input {
     display: flex;
     flex-direction: column;
-    width: 300%;
+    width: 80%;
     padding: 10px;
     border: 1px solid rgb(207, 207, 207);
     border-radius: 10px;
     margin-left: 5%;
-    margin-right: 5%;
     margin-top: 20px;
 }
 
 textarea {
     display: flex;
     flex-direction: column;
-    width: 300%;
+    width: 80%;
     padding: 10px;
     border: 1px solid rgb(207, 207, 207);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 20px;
     min-height: 150px;
+    border-radius: 10px;
 }
 
 #contact h2 {
@@ -84,11 +84,9 @@ textarea {
 }
 
 #getintouch {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: auto; 
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding-left: 4rem; 
 }
 
 

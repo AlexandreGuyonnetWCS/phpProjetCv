@@ -10,8 +10,8 @@
 }
 
 .achievement img {
-    width: 15rem;
-    height: 12.5rem;
+    width: 80%;
+    height: 80%;
     transition: transform .2s;
     border-radius: 10px;
 }
