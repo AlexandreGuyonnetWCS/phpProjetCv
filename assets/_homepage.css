@@ -13,10 +13,8 @@
 }
 #homepage h1 {
   font-family: stjedise;
-  font-size: 100%;
-  /* border-radius: 10px;
-  background-color: var(--grey);
-  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.75); */
+  font-size: 3rem;
+  color:var(--red);
   width: 200px;
   height: 100px;
   padding: 15px;
@@ -32,10 +30,7 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 2;
-  border-radius: 10px;
-  background-color: var(--grey);
-  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.75);
-  /* width: 80%; */
+  font-size: 1.5rem;
   padding: 15px;
   text-align: center;
   margin: 20px;
