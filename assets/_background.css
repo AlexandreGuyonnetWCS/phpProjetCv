@@ -42,7 +42,7 @@ h4 {
 }
 
 .task {
-    display: flex;
+    display: list-item;
     justify-content: left;
     padding-left: 30%;
     padding-top: 2px;
