@@ -3,47 +3,49 @@
 }
 
 form {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-
-input {
+.form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
+}
+
+input {
+    width: 90%;
     padding: 10px;
     border: 1px solid rgb(207, 207, 207);
     border-radius: 10px;
-    margin-left: 5%;
     margin-top: 20px;
 }
 
 textarea {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     border: 1px solid rgb(207, 207, 207);
-    margin-left: 5%;
-    margin-right: 5%;
     margin-top: 20px;
     min-height: 150px;
     border-radius: 10px;
 }
 
 .submit {
-    display: flex;
-    flex-direction: column;
+    display: contents;
     color: var(--white);
     background-color: var(--black);
-    padding: 0.5rem;
-    border-radius: 10px;
+    border-radius: 100%;
     margin-top: 20px;
-    margin-left: 40%;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
+}
+
+.submit img {
+    height: 80px;
+    width: 80px;
 }
 
 #contact h2 {
@@ -58,19 +60,19 @@ textarea {
     height: 40px;
 }
 
-.callme, p {
+.callme, h3, p {
     display: flex;
     flex-direction: row;
     margin-left: 0%;
 }
 
-.contactme, p {
+.contactme, h3, p {
     display: flex;
     flex-direction: row;
     margin-left: 0%;
 }
 
-.findme, p {
+.findme, h3, p {
     display: flex;
     flex-direction: row;
     margin-left: 0%;
@@ -84,10 +86,6 @@ textarea {
 .text {
     padding-top: 2rem;
     padding-bottom: 1rem;
-}
-
-.form {
-    margin-left: 2rem;
 }
 
 .contact {
@@ -107,7 +105,7 @@ textarea {
 
 #getintouch {
     display: grid;
-    grid-template-columns: 3fr 1.3fr 1fr; 
+    grid-template-columns: 3fr 3fr; 
 }
 
 @media screen and (max-width: 700px) {
@@ -126,10 +124,6 @@ textarea {
     .death_star img {
         width: 0;
         height: 0;
-    }
-
-    .submit {
-        margin-left: 35%;
     }
 }
 
