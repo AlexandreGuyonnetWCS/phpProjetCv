@@ -3,7 +3,9 @@
 <section id="background">
 
     <h2>Background</h2>
-    <hr class="bar">
+
+    <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge">
+
     <h3>Work history</h3>
      <div class="job"> 
         <div class="about">
@@ -32,7 +34,7 @@
         </div>
     </div>
     
-    <hr class="bar">
+    <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge">
 
     <h3>Education</h3>
 
@@ -60,8 +62,8 @@
                 <li>Jedi history</li>
             </ul>       
     </div>
-    <hr class="bar">
 
+    <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge">
 
 </section>
 
