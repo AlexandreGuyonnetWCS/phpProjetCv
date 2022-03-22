@@ -15,15 +15,18 @@ nav .main_pages {
   background-color: var(--black);
 }
 
-a {
-  text-decoration: none;
-  color: var(--red);
+nav img {
+
+  width: 100px;
+  height: auto;
 }
 
 a {
+  text-decoration: none;
+  color: var(--white);
   display: inline-block;
   position: relative;
-  color: var(--red);
+
 }
 
 a:after {
@@ -37,6 +40,7 @@ a:after {
   background-color: var(--red);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  margin-bottom: -2px;
 }
 
 a:hover:after {
@@ -62,7 +66,7 @@ a:hover:after {
   }
 
   nav .main_pages a {
-    color: var(--red);
+    color: var(--white);
     text-decoration: none;
  
   }
@@ -72,13 +76,16 @@ a:hover:after {
     flex-direction: row;
     font-size: 2rem;
     margin-left: 90%;
-    color: var(--red);
+    color: var(--white);
     cursor: pointer;
   }
 
   nav img {
 
-    display: none;
+    /* display: none; */
+    width: 40px;
+    position: relative;
+    margin-top: -50px;
   }
 
   #toggle:checked + .main_pages {
@@ -86,8 +93,9 @@ a:hover:after {
     flex-direction: row;
     align-content: flex-start;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    height: auto;
     
   }
 }
