@@ -1,0 +1,139 @@
+#contact {
+    background-color: var(--white);
+}
+
+form {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    min-height: 150px;
+    border-radius: 10px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+#contact h2 {
+    color: var(--black);
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.contact img {
+    width: 40px;
+    height: 40px;
+}
+
+.callme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.contactme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.findme, p {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+
+.image {
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+}
+
+.text {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.form {
+    margin-left: 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    color: var(--black);
+    margin-left: 0rem;
+}
+
+.death_star img {
+    width: 80%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+}
+
+#getintouch {
+    display: grid;
+    grid-template-columns: 3fr 1.3fr 1fr; 
+}
+
+@media screen and (max-width: 700px) {
+    #getintouch {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0%; 
+    }
+    .contact {
+        border-left: none;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        margin-bottom: -5rem;
+    }
+
+    .death_star img {
+        width: 0;
+        height: 0;
+    }
+
+    .submit {
+        margin-left: 35%;
+    }
+}
+
+
+
+
+
