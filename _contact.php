@@ -5,7 +5,7 @@
         <form>
             <div id="getintouch"> 
                 <div class="form">
-                    <input type="text" placeholder="Name">  
+                    <input type="text" name="name" aria-label="name" placeholder="Name">  
                     <input type="text" placeholder="Surname">   
                     <input type="email" placeholder="@">
                     <textarea placeholder="Your message"></textarea>
