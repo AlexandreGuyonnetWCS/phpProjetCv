@@ -9,7 +9,7 @@
                     <input type="text" placeholder="Surname">   
                     <input type="email" placeholder="@">
                     <textarea placeholder="Your message"></textarea>
-                    <button class="submit" type="submit">Submit<img src="assets/images/death_star.png">Submit></button>
+                    <input class="bouton" type="submit" value="Submit">
                 </div>
                 <div class="contact">
                     <div class="callme">
