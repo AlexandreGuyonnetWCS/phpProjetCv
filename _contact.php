@@ -5,13 +5,13 @@
     <div id="getintouch">
         <form action="" method="post"> 
             <div class="form">
-                <label for="fname">First name</label>
+                <label for="fname">First name</label> 
                 <input type="text" id="fname" name="fname" placeholder="Name">
                 <label for="lname">Last name</label>  
                 <input type="text" id="lname" name="lname" placeholder="Surname">  
                 <label for="email">E-mail</label> 
                 <input type="email" id="email" name="email" placeholder="@">
-                <label for="message">Message</label>
+                <label for="message">First name</label>
                 <textarea id="message" name="message" placeholder="Your message"></textarea>
                 <input class="bouton" type="submit" value="Submit">
             </div>
