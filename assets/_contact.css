@@ -32,20 +32,16 @@ textarea {
     border-radius: 10px;
 }
 
-.submit {
-    display: contents;
-    color: var(--white);
-    background-color: var(--black);
+.bouton {
+   
+    color: var(--red);
     border-radius: 100%;
     margin-top: 20px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
-}
-
-.submit img {
-    height: 80px;
-    width: 80px;
+    background: url(/assets/images/death_star.png);
+    background-size: 100px;
 }
 
 #contact h2 {
