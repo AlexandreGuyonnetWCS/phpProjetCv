@@ -37,7 +37,7 @@
         </ul></br>
         <h4>Obi-Wan Kenobi Jedi training</h4>
         <ul>
-            <li>Ethcs of force use</li>
+            <li>Ethics of force use</li>
             <li>Lightsaber wielding and dueling</li>
             <li>Jedi history</li>
         </ul>
