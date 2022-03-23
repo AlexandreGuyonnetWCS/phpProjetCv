@@ -2,16 +2,18 @@
 <?php
 if (isset($_POST['id'])) echo $_POST['id'];
 ?>
-<section id="contact">
-    <h2>Get in touch</h2>
-    <div id="alert">
+
+<!-- <div id="alert">
         <a href="#">fermer</a>
         <h1>alert</h1>
         Hello <?php echo $_POST['fname'] ?> May the force be with you
-    </div>
-    <div id="getintouch">
+    </div> -->
+<section id="contact">
 
-        <form action="#alert" method="post"></form>
+    <h2>Get in touch</h2>
+    
+    <div id="getintouch">
+    <form action="#alert" method="post"></form>
         <div class="form">
             <label for="fname">First name</label>
             <input type="text" id="fname" name="fname" placeholder="Name">
