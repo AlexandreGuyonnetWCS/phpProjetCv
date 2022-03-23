@@ -1,6 +1,6 @@
 
 
-<link rel="stylesheet" href="./assets/style.css">
+
     <footer>
         <div>© dePhants Team </div>
         <a href="./_legal.php">Mentions Légales</a>

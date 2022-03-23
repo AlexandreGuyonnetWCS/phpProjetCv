@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="./assets/style.css">
-
 <nav>
     <label for="toggle">☰</label>
     <input type="checkbox" id="toggle">
