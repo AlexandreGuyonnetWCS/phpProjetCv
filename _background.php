@@ -13,14 +13,14 @@
             <li>Captured Princess Leia</li>
             <li>Oversaw construction of the Death Star</li>
             <li>Reduced operating cost by 36% through mass executions</li>
-        </ul></br>
+        </ul>
 
         <h4>Jedi Council</h4>
         <ul>
             <li>Made coffe for Yoda</li>
             <li>Trained jedi padawans</li>
             <li>Maintened peace</li>
-        </ul></br>
+        </ul>
     </div>
 
     <!-- <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge"> -->
