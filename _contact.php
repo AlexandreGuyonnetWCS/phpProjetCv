@@ -10,6 +10,7 @@ if (isset($_POST['id'])) echo $_POST['id'];
         Hello <?php echo $_POST['fname'] ?> May the force be with you
     </div>
     <div id="getintouch">
+<<<<<<< HEAD
 
         <form action="#alert" method="post"></form>
         <div class="form">
@@ -23,6 +24,20 @@ if (isset($_POST['id'])) echo $_POST['id'];
             <textarea id="message" name="message" placeholder="Your message"></textarea>
             <input class="bouton" type="submit" value="Submit">
         </div>
+=======
+        <form action="" method="post"> 
+            <div class="form">
+                <label for="fname">First name</label> 
+                <input type="text" id="fname" name="fname" placeholder="Name">
+                <label for="lname">Last name</label>  
+                <input type="text" id="lname" name="lname" placeholder="Surname">  
+                <label for="email">E-mail</label> 
+                <input type="email" id="email" name="email" placeholder="@">
+                <label for="message">First name</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+                <input class="bouton" type="submit" value="Submit">
+            </div>
+>>>>>>> FEAT/contact
         </form>
         <div class="contact">
             <div class="callme">
