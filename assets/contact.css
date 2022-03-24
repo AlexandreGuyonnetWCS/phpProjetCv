@@ -1,20 +1,28 @@
 #alert {
-  display: none;
-  position: absolute;
-  width: 250px;
-  background: green;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  border-radius: 35px;
-  color: cyan;
-  right: -20px;
-  top: 10px;
-  transform: translateX(-50%) translateY(-50%);
-  border-color: var(--black) 1px solid;
+    display: none;
+    position: fixed;
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    font-size: .8rem;
+    border-radius: 35px;
+    color: var(--black);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgb(207 207 207);
+    padding: 20px;
 }
 #alert:target {
-  display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+}
+
+#alert img {
+
+    width: auto;
+    height: 50%;
 }
 
 #contact {
@@ -49,16 +57,6 @@ textarea {
   border-radius: 10px;
 }
 
-input:focus {
-    outline: none !important;
-    border-color: var(--red);
-}
-
-textarea:focus {
-    outline: none !important;
-    border-color: var(--red);
-}
-
 .bouton {
   color: var(--white);
   border-radius: 100%;
@@ -76,7 +74,7 @@ textarea:focus {
   padding-top: 2rem;
   font-size: 2rem;
 }
-
+  
 .contact img {
   width: 40px;
   height: 40px;
@@ -134,7 +132,6 @@ p {
 #getintouch {
   display: grid;
   grid-template-columns: 3fr 3fr;
-  padding-top: 3rem;
 }
 
 @media screen and (max-width: 680px) {
@@ -155,18 +152,22 @@ p {
     height: 0;
   }
 
-<<<<<<< HEAD
-    .form {
-        margin-left: 0%;
-    }
-
-    label {
-        display: none;
-    }
-=======
   .form {
     margin-left: 0%;
-    margin-top: -6rem;
+    
   }
->>>>>>> FEAT/jf
+
+
+label {
+    font-size: 2rem;
+    margin-left: 90%;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.form label {
+
+    display:none;
+}
+
 }
