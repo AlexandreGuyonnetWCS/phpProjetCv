@@ -4,12 +4,12 @@ if (isset($_POST['id'])) echo $_POST['id'];
 <div id="alert">
     <img src="./assets/images/yoda.png"></br>
     <div>Hello <?php echo $_POST['fname'] ?> May the force be with you</div></br>
-    <a href="#">fermer tu dois</a>
+    <a href="#">Close You Must</a>
 
 </div>
 
 <section id="contact">
-    <h2>Get in touch</h2>
+    <h2>Get in touch</h2></br>
 
     <div id="getintouch">
         <form action="#alert" method="post">
