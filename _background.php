@@ -3,46 +3,40 @@
 <section id="background">
 
     <h2>Background</h2>
-<!-- 
-    <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge"> -->
 
     <h3>Work history</h3>
     <div class="job">
         <h4>Galactic Empire</h4>
         <ul>
-            <li>Captured Princess Leia</li>
-            <li>Oversaw construction of the Death Star</li>
-            <li>Reduced operating cost by 36% through mass executions</li>
+            <li>Captured Princess Leia.</li>
+            <li>Oversaw construction of the Death Star.</li>
+            <li>Reduced operating cost by 36% through mass executions.</li>
         </ul>
 
         <h4>Jedi Council</h4>
         <ul>
-            <li>Made coffe for Yoda</li>
-            <li>Trained jedi padawans</li>
-            <li>Maintened peace</li>
+            <li>Made coffee for Yoda.</li>
+            <li>Trained jedi padawans.</li>
+            <li>Maintened peace.</li>
         </ul>
     </div>
-
-    <!-- <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge"> -->
 
     <h3>Education</h3>
 
     <div class="job">
         <h4>Institute of Dark Side Studies</h4>
         <ul>
-            <li>Strategic Galaxy Domination</li>
-            <li>Dark Side Force</li>
-            <li>Handsfree Strangulation Techniques</li>
-            <li>Cyborg Lifestyle</li>
+            <li>Strategic Galaxy Domination.</li>
+            <li>Dark Side Force.</li>
+            <li>Handsfree Strangulation Techniques.</li>
+            <li>Cyborg Lifestyle.</li>
         </ul></br>
         <h4>Obi-Wan Kenobi Jedi training</h4>
         <ul>
-            <li>Ethics of force use</li>
-            <li>Lightsaber wielding and dueling</li>
-            <li>Jedi history</li>
+            <li>Ethics of force use.</li>
+            <li>Lightsaber wielding and dueling.</li>
+            <li>Jedi history.</li>
         </ul>
     </div>
-<!-- 
-    <img class="img-sabre" src="assets/images/sabrerouge.png" alt="Sabre rouge"> -->
-
+    
 </section>
