@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --black: #0d0b07;
+  --red: #c30011;
+  --grey: #e6e6e9;
+  --white: #f7f7f7;
+
+
+  font-family: "Poller One", sans-serif;
+  
+}
