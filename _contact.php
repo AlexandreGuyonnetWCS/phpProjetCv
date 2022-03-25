@@ -1,12 +1,13 @@
 <?php
-if (isset($_POST['id'])) echo $_POST['id'];
+if (isset($_POST['fname'])):
 ?>
 <div id="alert">
-    <img src="./assets/images/yoda.png"></br>
+    <img src="/assets/images/yoda.png"></br>
     <div>Hello <?php echo $_POST['fname'] ?> May the force be with you</div></br>
     <a href="#">Close You Must</a>
 
 </div>
+<?php endif; ?>
 
 <section id="contact">
     <h2>Get in touch</h2></br>
@@ -30,7 +31,7 @@ if (isset($_POST['id'])) echo $_POST['id'];
         <div class="contact">
             <div class="callme">
                 <div class="image">
-                    <div><img src="assets/images/phone.png" alt="Call me"></div>
+                    <div><img src="/assets/images/phone.png" alt="Call me"></div>
                 </div>
                 <div class="text">
                     <div>
@@ -43,7 +44,7 @@ if (isset($_POST['id'])) echo $_POST['id'];
             </div>
             <div class="contactme">
                 <div class="image">
-                    <div><img src="assets/images/email.png" alt="Contact me"></div>
+                    <div><img src="/assets/images/email.png" alt="Contact me"></div>
                 </div>
                 <div class="text">
                     <div>
@@ -56,7 +57,7 @@ if (isset($_POST['id'])) echo $_POST['id'];
             </div>
             <div class="findme">
                 <div class="image">
-                    <div><img src="assets/images/map.png" alt="Find me"></div>
+                    <div><img src="/assets/images/map.png" alt="Find me"></div>
                 </div>
                 <div class="text">
                     <div>
