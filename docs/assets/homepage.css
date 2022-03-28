@@ -1,0 +1,38 @@
+@font-face {
+  font-family:stjedise;
+  src: url(./fonts/STJEDISE.TTF);
+}
+
+#homepage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+#homepage h1 {
+  font-family: stjedise;
+  font-size: 3rem;
+  color:var(--red);
+  width: 200px;
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+  margin: 20px;
+}
+
+#homepage img {
+  margin: 20px;
+  min-width: 200px;
+}
+#homepage p {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 1.5rem;
+  padding: 15px;
+  text-align: center;
+  margin: 20px;
+}
