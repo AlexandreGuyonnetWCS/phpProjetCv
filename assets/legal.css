@@ -3,14 +3,14 @@
 
   background: var(--black);
 }
-#legal>body {
-  
+#legal>#body {
   overflow: hidden;
   font-family: 'Roboto';
-  margin: 50% 0 0 0;
+  margin: 0;
   position: relative;
+  height: 100vh;
 }
-#legal>body::after {
+#legal>#body::after {
   content: '';
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@
   height: 100%;
   width: 60%;
   margin: 0 auto;
-  perspective: 450px;
+  perspective: 250px;
 }
 .scroll-text {
   color: var(--red);
@@ -39,6 +39,6 @@
 }
 
 @keyframes scroll {
-	from { top: 0; transform: translateZ(0) rotateX(20deg); }
-	to { top: -7500px; transform: translateZ(-2500px) rotateX(21deg); }
+	from { top: 800px; transform: translateZ(0) rotateX(30deg); }
+	to { top: -7500px; transform: translateZ(-4500px) rotateX(30deg); }
 }

@@ -7,7 +7,7 @@ $repos = "/phpProjetCv";
 //important: do not write the extension .php
 $files = [
     "index",
-    "_legal"
+    "legal"
 ];
 
 foreach ($files as $file) {
